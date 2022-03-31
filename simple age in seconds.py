@@ -8,4 +8,4 @@ while age == "":
     except:
         print("Numbers only please!")
 
-print("You have lived for " + str(age * 365 * 24 * 60 * 60) + " seconds!")
+print("You have lived for at least " + str(age * 365 * 24 * 60 * 60) + " seconds!")
